@@ -1,9 +1,11 @@
 # Gerador de Senha
-
+<div align="center">
+  <img src="./assets/Animação.gif" width="500" >
+</div>
+<div align="left">
 ## Descrição
 Um simples gerador de senhas que permite personalizar o tamanho da senha e copiá-la para a área de transferência.
 
-![Gerador de Senha Logo](./assets/padlock.png)
 
 ## Tecnologias
 - HTML
@@ -17,8 +19,4 @@ Um simples gerador de senhas que permite personalizar o tamanho da senha e copi�
 4. Clique na senha gerada para copiá-la para a área de transferência.
 5. Uma mensagem indicando que a senha foi copiada com sucesso será exibida temporariamente.
 
-Certifique-se de incluir o arquivo `index.css` e `index.js` no mesmo diretório que o seu arquivo HTML para garantir o funcionamento adequado do aplicativo.
-
----
-
-**Nota:** Certifique-se de substituir `./assets/padlock.png` pelo caminho correto para a imagem do seu logo, se estiver em um diretório diferente.
+</div>
