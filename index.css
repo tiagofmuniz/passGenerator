@@ -1,0 +1,87 @@
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.container-input {
+  text-align: center;
+}
+
+.slider {
+  width: 80%;
+  margin: 10px 0;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.button-cta {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button-cta:hover {
+  background-color: #e60000;
+}
+
+.container-password {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.password {
+  font-size: 24px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: all;
+}
+
+.tooltip {
+  font-size: 14px;
+  color: #999;
+  display: block;
+  margin-top: 5px;
+}
+
+.hide {
+  display: none;
+}
+.copy-message {
+  font-size: 14px;
+  color: #4caf50; /* Cor verde para indicar sucesso */
+  margin-top: 10px;
+  animation: fadeOut 3s ease; /* Animação de desaparecimento após 3 segundos */
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
